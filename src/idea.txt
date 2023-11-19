@@ -9,10 +9,11 @@ Todo:
 Todo Maybe:
 - Redirect to one set url, probably youtube.ttools.io, (instead of having www.youtube.com, youtube.com. youtube. all seperate)
 - Add "paste youtube url" button to homepage
-- User settings with option to enable "privacy enchanced" embed mode
+- User settings with option to enable "privacy enchanced" embed mode - probably on settings page so room to explain.
 - Feedback button
 - Add more features
     - Download video / mp3 button
     - Skip Silence Functionality
     - Built in SponsorBlock (it might be possible depending on how extensions work)
+    - search page 
 
