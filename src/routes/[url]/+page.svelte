@@ -1,10 +1,12 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import { createQuery } from '@tanstack/svelte-query';
 	import { onMount } from 'svelte';
 	import ViewsLikesDislikes from './ViewsLikesDislikes.svelte';
 
-	let videoId = $page.url.searchParams.toString().substring(2);
+	let videoId = $page.url.searchParams.get('v') as string; //todo: maybe get rid of the as string
+
+	
 
 	const query = createQuery({
 		queryKey: ['snippet', videoId],
