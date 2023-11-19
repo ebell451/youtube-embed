@@ -17,7 +17,7 @@
 				});
 		},
         staleTime: 1000 * 60 * 60, //might change this
-        gcTime: Infinity,
+        // gcTime: Infinity,
 	});
 
     $: title = $query.data?.title
@@ -48,13 +48,25 @@
     </h1>
 
     <ViewsLikesDislikes videoId={videoId} />
+
+
+    <br>
+
+    <a 
+		href="/about" target="_blank" rel="noreferrer noopener"
+		class="text-emerald-400 underline"
+	> about </a> <br>
+    <a 
+		href="https://www.ttools.io" target="_blank" rel="noreferrer noopener"
+		class="text-emerald-400 underline"
+	> more tools </a>
 </main>
 
 <svelte:head>
     {#if $query.isSuccess}
-        <title>{title} - YT</title>
+        <title>{title} - YT Embed</title>
     {:else}
-        <title>{videoId}</title>
+        <title>{videoId} - YT Embed</title>
     {/if}
 </svelte:head>
 

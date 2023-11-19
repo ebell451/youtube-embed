@@ -14,15 +14,21 @@
                 })
 		},
         staleTime: 1000 * 60* 15, //might change this
-        gcTime: Infinity,
 	});
+
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'decimal',
+    });
+    $: views = formatter.format($query.data?.viewCount);
+    $: likes = formatter.format($query.data?.likes);
+    $: dislikes = formatter.format($query.data?.dislikes);
 </script>
 
 {#if $query.isSuccess}
     <div class="flex ">
-        <p>Views: {$query.data?.viewCount}</p>
-        <p class="ml-auto mr-3">Likes: {$query.data?.likes}</p>
-        <p>Dislikes: {$query.data?.dislikes}</p>
+        <p>Views: {views}</p>
+        <p class="ml-auto mr-3">Likes: {likes}</p>
+        <p>Dislikes: {dislikes}</p>
     </div>
 {:else if $query.isError}
     <p>{$query.error.message}</p>
