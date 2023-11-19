@@ -36,9 +36,9 @@
         This website is for whenever you need to view a youtube video as an embedded frame,
     </p>
     <p>
-        For instance if the official youtube website is not working, or it is asking you to turn off your adblocker. 
+        For instance if the official youtube website is not working, or it is asking you to turn off your adblocker. Or if you just want a more minimal distraction-free youtube viewing experience.
     </p>
-    <p>As an added bonus you can also see the estimated dislike count of each video thanks to the  Return Youtube Dislike API. Maybe I will add more features too if I think of them.</p>
+    <p class="mt-1">As an added bonus you can also see the estimated dislike count of each video thanks to the  Return Youtube Dislike API. Maybe I will add more features too if I think of them.</p>
 
     <br>
     <br>
