@@ -53,7 +53,7 @@
     <br>
 
     <a 
-		href="/about" target="_blank" rel="noreferrer noopener"
+		href="/" target="_blank" rel="noreferrer noopener"
 		class="text-emerald-400 underline"
 	> about </a> <br>
     <a 

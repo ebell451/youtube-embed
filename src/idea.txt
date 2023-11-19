@@ -1,7 +1,15 @@
 
-
 Todo:
+- SEO practices (meta tags in head)
+- Add github link to homepage, also yt
+- Change the Favicon
+- Launch with a youtube video
+
+Todo Maybe:
+- Add "paste youtube url" button to homepage
 - User settings with option to enable "privacy enchanced" embed mode
-- Dislike Count
-- Chapters
-- Homepage with "paste youtube url" button
+- Add more features
+    - Download video / mp3 button
+    - Skip Silence Functionality
+    - Built in SponsorBlock (it might be possible depending on how extensions work)
+
