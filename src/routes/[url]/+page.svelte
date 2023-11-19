@@ -6,6 +6,7 @@
 
 	let videoId = $page.url.searchParams.get('v') as string; //todo: maybe get rid of the as string
 
+	// console.log(videoId)
 	
 
 	const query = createQuery({
@@ -30,8 +31,8 @@
 	<div class="youtube-embed-wrapper">
 		<iframe
             class="outline-none"
-			width="100%"
-			height="100%"
+			width="2560px"
+			height="1440px"
 			src="https://www.youtube.com/embed/{videoId}"
 			title="YouTube video player"
 			frameborder="0"
