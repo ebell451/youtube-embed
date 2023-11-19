@@ -41,6 +41,10 @@
 
 <br class="mb-[100vh]">
 
+<svelte:head>
+    <title>Recommendations - Youtube Embed Viewer</title>
+</svelte:head>
+
 <style>
     main {
         font-size: 1.5rem;
