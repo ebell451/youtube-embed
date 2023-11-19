@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import { createQuery } from '@tanstack/svelte-query';
 	import { onMount } from 'svelte';
+	import ViewsLikesDislikes from './ViewsLikesDislikes.svelte';
 
 	let videoId = $page.url.searchParams.toString().substring(2);
 
@@ -11,11 +12,12 @@
 			return fetch(`https://yt.lemnoslife.com/noKey/videos?part=snippet&id=${videoId}`)
 				.then((r) => r.json())
 				.then((r) => {
-					console.log(r);
-					console.log('HII', r.items[0].snippet);
+                    console.log("Youtube API Snippet Result", r)
 					return r.items[0].snippet;
 				});
-		}
+		},
+        staleTime: 1000 * 60 * 60, //might change this
+        gcTime: Infinity,
 	});
 
     $: title = $query.data?.title
@@ -44,6 +46,8 @@
             {title}
         {/if}
     </h1>
+
+    <ViewsLikesDislikes videoId={videoId} />
 </main>
 
 <svelte:head>

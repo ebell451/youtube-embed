@@ -1,6 +1,7 @@
 
 
-
-First time user loads it, it asks about privacy enchanced mode and other prefernecnes, and tells about ublock
-
-it saves preferences in localstorage and loads it right every other time
+Todo:
+- User settings with option to enable "privacy enchanced" embed mode
+- Dislike Count
+- Chapters
+- Homepage with "paste youtube url" button
