@@ -1,6 +1,7 @@
 <script lang="ts">
 	// import SearchBar from "./SearchBar.svelte";
 
+
 </script>
 
 
@@ -17,7 +18,7 @@
         "<span class="bg-stone-700 rounded-md px-0.5 py-0">.ttools.io</span>"
         to the end of your youtube url
     </p>
-    <p class="bg-black rounded-md px-3 py-1 w-fit mt-1">
+    <p class="bg-black rounded-md px-3 py-1 w-fit mt-1 break-words break-all">
         <span class="text-neutral-400">https://www.youtube.com</span><span class="text-green-400 font-bold">.ttools.io</span><span class="text-neutral-400">/watch?v=dQw4w9WgXcQ</span>
     </p>
 
