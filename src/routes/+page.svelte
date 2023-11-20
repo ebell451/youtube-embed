@@ -27,13 +27,13 @@
     TODO
     -->
 
-    <br>
+    <!-- <br> -->
     <br>
     
 
 
     
-    <p class="mt-4">
+    <p class="">
         This website is for whenever you need to view a youtube video as an embedded frame,
     </p>
     <p>
@@ -42,9 +42,9 @@
     <p class="mt-1">As an added bonus you can also see the estimated dislike count of each video thanks to the  Return Youtube Dislike API. Maybe I will add more features too if I think of them.</p>
 
     <br>
-    <br>
+    <!-- <br> -->
 
-    <a href="/recommendations" class="text-emerald-300 underline block">
+    <a href="/recommendations" class="text-emerald-300 underline block mt-2">
         Here are some recommendations to optimize your youtube embed experience
     </a>
         
