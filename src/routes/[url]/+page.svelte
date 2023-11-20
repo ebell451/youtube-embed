@@ -56,7 +56,8 @@
     <br>
 
     <a 
-		href="/" target="_blank" rel="noreferrer noopener"
+		href="https://youtube.ttools.io" 
+		target="_blank" rel="noreferrer noopener"
 		class="text-emerald-400 underline"
 	> about </a> <br>
     <a 
