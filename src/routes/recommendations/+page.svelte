@@ -3,7 +3,7 @@
 
 
 
-<main class="max-w-5xl mx-auto p-2 mt-16">
+<main class="max-w-5xl mx-auto p-2 pt-16">
     
     <h1 class="text-4xl font-bold underline decoration-4">
         Reccomendations
@@ -39,7 +39,7 @@
     
 </main>
 
-<br class="mb-[100vh]">
+<!-- <br class="mb-[100vh]"> -->
 
 <svelte:head>
     <title>Recommendations - Youtube Embed Viewer</title>
