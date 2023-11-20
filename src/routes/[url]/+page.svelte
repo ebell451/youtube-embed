@@ -69,7 +69,7 @@
     {#if $query.isSuccess}
         <title>{title} - YT Embed</title>
     {:else}
-        <title>{videoId} - YT Embed</title>
+        <title>YT Embed - {videoId}</title>
     {/if}
 
 	<!-- <meta name="description" content="Embedded Youtube Video of {title}"> -->
