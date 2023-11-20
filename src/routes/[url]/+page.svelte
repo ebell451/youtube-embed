@@ -71,6 +71,10 @@
     {:else}
         <title>{videoId} - YT Embed</title>
     {/if}
+
+	<!-- <meta name="description" content="Embedded Youtube Video of {title}"> -->
+	<!-- ^^ would use if had ssr. VV This does work.     Will edit as functionality is added of course -->
+	<meta name="description" content="Embedded Youtube Video of {videoId}. Includes dislike count. May bypass adblockblock">
 </svelte:head>
 
 <style>

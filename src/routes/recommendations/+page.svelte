@@ -43,6 +43,7 @@
 
 <svelte:head>
     <title>Recommendations - Youtube Embed Viewer</title>
+    <meta name="description" content="Recommended tools / extensions to use along side youtube or Youtube Embed Viewer">
 </svelte:head>
 
 <style>
