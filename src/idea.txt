@@ -1,9 +1,6 @@
 
 Todo:
-- SEO practices (meta tags in head)
 - Add github link to homepage, also yt
-- Change the Favicon
-- Add google analytics (it's already youtube afterall)
 - Launch with a youtube video
 
 Todo Maybe:
