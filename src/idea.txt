@@ -14,3 +14,6 @@ Todo Maybe:
     - Built in SponsorBlock (it might be possible depending on how extensions work)
     - search page 
 
+    - Playlist support (if playlist in URL)
+
+    - Comments or personal notes on Timestamps
