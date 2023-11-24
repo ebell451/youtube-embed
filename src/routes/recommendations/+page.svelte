@@ -6,10 +6,10 @@
 <main class="max-w-5xl mx-auto p-2 pt-16">
     
     <h1 class="text-4xl font-bold underline decoration-4">
-        Reccomendations
+        Recommendations
     </h1>
     <p class="mt-4">
-        Reccomendations for tools to use alongside this site:
+        Recommendations for tools to use alongside this site:
     </p>
 
     <ul class="mt-8 list-disc pl-5">
@@ -36,6 +36,33 @@
             </p>
         </li>
     </ul>
+
+    <br>
+    <br>
+    
+    <h1 class="text-4xl font-bold underline decoration-4 mb-4">
+        Information
+    </h1>
+
+    <p>
+        To check if you are signed in while on this site (and therefore influencing your youtube algorithm if you have watch history on), 
+        right click on the video and click account. My testing shows this works in chrome but not brave or firefox due to cookie isolation.
+    </p>
+    <p>
+        The embed has "privacy enhanced mode" set to disabled.
+    </p>
+
+    <br>
+
+    
+    <p>
+        This site includes google analytics (but it will be blocked by ublock origin or many other adblockers). 
+        Also includes Cloudflare Web Analytics.
+    </p>
+    <br>
+    <p>
+        This site is currently free for me to host at any scale, so I will keep it running as long as I can.
+    </p>
     
 </main>
 

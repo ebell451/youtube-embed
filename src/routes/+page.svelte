@@ -11,7 +11,7 @@
 		end of your youtube url
 	</p>
 	<p class="bg-black rounded-md px-3 py-1 w-fit mt-1 break-words break-all">
-		<span class="text-neutral-400">https://www.youtube.com</span><span
+		<span class="text-neutral-400">https://www.youtube</span><span
 			class="text-green-400 font-bold">.ttools.io</span
 		><span class="text-neutral-400">/watch?v=dQw4w9WgXcQ</span>
 	</p>
@@ -42,7 +42,7 @@
 	<!-- <br> -->
 
 	<a href="/recommendations" class="text-emerald-300 underline block mt-2">
-		Here are some recommendations to optimize your youtube embed experience
+		Recommendations to optimize your youtube embed experience&nbsp; + &nbsp;More Information
 	</a>
 
 	<!-- <a href="tba" class="text-emerald-300 underline block mt-14">
