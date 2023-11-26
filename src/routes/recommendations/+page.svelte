@@ -1,4 +1,11 @@
 <script lang="ts">
+	import { sendAnalyticsEvent } from "$lib/analytics";
+	import { onMount } from "svelte";
+
+
+    onMount(() => {
+        sendAnalyticsEvent("loadedRecommendationsPage");
+    })
 </script>
 
 
@@ -59,11 +66,20 @@
         This site includes google analytics (but it will be blocked by ublock origin or many other adblockers). 
         Also includes Cloudflare Web Analytics.
     </p>
+    <p>
+        I've also included my own analytics that ublock won't block by default. It sends a randomly generated clientId (saved in localstorage) to my servers about what you do: namely what pages you visit and if you stay on a video page for 1, 5, or 10 minutes. I don't include what specific videos you watch, just that you're watching something.
+        I just want an idea if anyone is using my app yk, tracking this stuff is actually standard practice on the web as far as I can tell.
+    </p>
+    <p>
+        You can opt out of this by adding analytics.cloudflare-473.workers.dev to your blocklist. Check back here in case the url changes haha.
+    </p>
     <br>
     <p>
-        This site is currently free for me to host at any scale, so I will keep it running as long as I can.
+        This site is currently free for me to host at any scale (due to the core functionality being run as an SPA / client side only, and cloudflare pages offering a free cdn), so I will keep it running as long as I can.
     </p>
     
+    <br>
+    <br>
 </main>
 
 <!-- <br class="mb-[100vh]"> -->

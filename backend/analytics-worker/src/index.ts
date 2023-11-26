@@ -41,7 +41,10 @@ export default {
 		const details = searchParams.get('details');
 		if (!clientId || !eventName) {
 			return new Response('please provide clientId and eventName', {
-				status: 400
+				status: 400,
+				headers: {
+					'Access-Control-Allow-Origin': '*'
+				}
 			});
 		}
 
@@ -88,7 +91,10 @@ export default {
 
 
 		return new Response("thanks", {
-			status: 200
+			status: 200,
+			headers: {
+				'Access-Control-Allow-Origin': '*'
+			}
 		});
 	},
 };

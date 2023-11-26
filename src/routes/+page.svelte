@@ -1,6 +1,14 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+
 	// import SearchBar from "./SearchBar.svelte";
     import IconLinks from "./IconLinks.svelte"
+	import { sendAnalyticsEvent } from "$lib/analytics";
+
+
+	onMount(() => {
+        sendAnalyticsEvent("loadedHomePage");
+    })
 </script>
 
 <main class="max-w-5xl mx-auto p-2 pt-16">
