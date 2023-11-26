@@ -1,0 +1,25 @@
+{
+  "name": "analytics-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bun src/test.ts",
+    "analytics-info": "bun src/query.ts",
+    "push-schema": "drizzle-kit push:mysql",
+    "db-viewer": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.6",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "bun": "^1.0.14",
+    "drizzle-kit": "^0.19.13"
+  }
+}
