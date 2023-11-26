@@ -1,0 +1,11 @@
+
+
+
+Current Possible Events
+- loadedVideoPage
+- stayedOnVideoPageFor1Min
+- stayedOnVideoPageFor5Min
+- stayedOnVideoPageFor10Min
+
+- loadedHomePage
+- loadedRecommendationsPage
