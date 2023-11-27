@@ -11,7 +11,7 @@ export default {
     out: "./drizzle",
     driver: "mysql2",
     dbCredentials: {
-        connectionString: process.env.DATABASE_CONNECTION_STRING as string,
+        connectionString: process.env.DATABASE_CONNECTION_STRING_PROD as string,
         // uri: process.env.DATABASE_CONNECTION_STRING as string,
     },
     tablesFilter: ["yt_embed_analytics_*"], //only look at tables starting with x others are other projects
