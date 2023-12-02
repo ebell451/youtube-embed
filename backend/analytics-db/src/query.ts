@@ -53,14 +53,15 @@ async function getUsersCount(eventName:string, hours:number) {
 async function reportLastXHours(x:number) {
     return {
         "loadedHomePage" : await getEventCount("loadedHomePage", x),
-        "uniqueUsersLoadedHomepage" : await getUsersCount("loadedHomePage", x),
         "loadedRecommendationsPage" : await getEventCount("loadedRecommendationsPage", x),
-        "uniqueUsersRecommendationsPage" : await getUsersCount("loadedRecommendationsPage", x),
         "loadedVideoPage" : await getEventCount("loadedVideoPage", x),
-        "uniqueUsersVideoPage" : await getUsersCount("loadedVideoPage", x),
         "stayedOnVideoPageFor1Min" : await getEventCount("stayedOnVideoPageFor1Min", x),
         "stayedOnVideoPageFor5Min" : await getEventCount("stayedOnVideoPageFor5Min", x),
         "stayedOnVideoPageFor10Min" : await getEventCount("stayedOnVideoPageFor10Min", x),
+        
+        "uniqueUsersLoadedHomepage" : await getUsersCount("loadedHomePage", x),
+        "uniqueUsersRecommendationsPage" : await getUsersCount("loadedRecommendationsPage", x),
+        "uniqueUsersVideoPage" : await getUsersCount("loadedVideoPage", x),
         "uniqueUsersStayedOnVideoPageFor1Min" : await getUsersCount("stayedOnVideoPageFor1Min", x),
         "uniqueUsersStayedOnVideoPageFor5Min" : await getUsersCount("stayedOnVideoPageFor5Min", x),
         "uniqueUsersStayedOnVideoPageFor10Min" : await getUsersCount("stayedOnVideoPageFor10Min", x),
@@ -69,10 +70,17 @@ async function reportLastXHours(x:number) {
     }
 }
 
-console.log("Last 24 Hours", await reportLastXHours(24))
+
+
+// console.log("Last 16 Hours", await reportLastXHours(16))
 // console.log("Last 8 Hours", await reportLastXHours(8))
 
 
+console.log("Last _ Hours")
+for await (const line of console) {
+    const input = line
+    console.log(`Last ${input} Hours`, await reportLastXHours(parseInt(input)))
+}
 
 
 // console.log(await getEvents("loadedVideoPage", 8))
