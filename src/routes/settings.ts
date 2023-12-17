@@ -1,5 +1,5 @@
 
-//WIP
+//WIP // Not in use
 
 type Settings = {
     privacyMode: boolean
