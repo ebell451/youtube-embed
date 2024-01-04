@@ -78,15 +78,15 @@ export default {
 			await db.execute(`
 				INSERT INTO yt_embed_analytics_events
 				(clientId, eventName, details)
-				VALUES (${clientId}, ${eventName}, ${details});
-			`)
+				VALUES (?, ?, ?);
+			`, [clientId, eventName, details])
 		}
 		else {
 			await db.execute(`
 				INSERT INTO yt_embed_analytics_events
 				(clientId, eventName)
-				VALUES (${clientId}, ${eventName});
-			`)
+				VALUES (?, ?);
+			`, [clientId, eventName])
 		}
 
 
