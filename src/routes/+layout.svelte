@@ -3,7 +3,7 @@
 
     import { QueryClient, QueryClientProvider } from '@tanstack/svelte-query'
     import { browser } from '$app/environment'
-	import GoogleAnalytics from "./GoogleAnalytics.svelte";
+	import Analytics from "./Analytics.svelte";
     const queryClient = new QueryClient({
         defaultOptions: {
             queries: {
@@ -19,4 +19,4 @@
     <slot></slot>
 </QueryClientProvider>
 
-<GoogleAnalytics />
+<Analytics />

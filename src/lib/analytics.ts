@@ -1,7 +1,6 @@
 //Home spun analytics
 
 import { browser} from '$app/environment';
-const ANALYTICS_URL = 'https://analytics.cloudflare-473.workers.dev';
 
 
 
@@ -22,6 +21,9 @@ function getClientId(){
 }
 
 const clientId = getClientId();
+
+
+const ANALYTICS_URL = 'https://analytics.cloudflare-473.workers.dev';
 
 export async function sendAnalyticsEvent(eventName: string, details?: string) {
 	const url = details
