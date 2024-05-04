@@ -1,19 +1,4 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
 
-		
-
-		<!-- umami analytics -->
-		<script defer 
-			src="https://umami.ttools.io/script.js" 
-			data-website-id="aedf3dd2-7ab5-451d-8af1-7a68a11261af"
-			data-auto-track="false"
-			onload='
 				// copied from mdn docs
 				async function hashMessage(message) {
 					const msgUint8 = new TextEncoder().encode(message); // encode as (utf-8) Uint8Array
@@ -55,6 +40,7 @@
 				async function trackRedacted(){
 					const {redactedPageTitle, redactedPageUrl, redactedRefererUrl} = await getRedactedData();
 					
+					console.log("tracking redacted")
 					umami.track(props => {
 						props.title = redactedPageTitle;
 						props.url = redactedPageUrl;
@@ -64,12 +50,4 @@
 					});
 				}
 
-				console.log("tracking redacted")
 				trackRedacted();
-			'
-		></script>
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
-</html>

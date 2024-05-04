@@ -19,4 +19,4 @@
     <slot></slot>
 </QueryClientProvider>
 
-<Analytics />
+<!-- <Analytics /> -->

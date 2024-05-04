@@ -11,31 +11,31 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-auto':
-    specifier: ^2.0.0
+    specifier: ^2.1.1
     version: 2.1.1(@sveltejs/kit@1.27.6)
   '@sveltejs/adapter-static':
     specifier: ^2.0.3
     version: 2.0.3(@sveltejs/kit@1.27.6)
   '@sveltejs/kit':
-    specifier: ^1.27.4
+    specifier: ^1.27.6
     version: 1.27.6(svelte@4.2.5)(vite@4.5.0)
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.0.0
+    specifier: ^6.11.0
     version: 6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.54.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.0.0
+    specifier: ^6.11.0
     version: 6.11.0(eslint@8.54.0)(typescript@5.2.2)
   autoprefixer:
-    specifier: ^10.4.14
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
   eslint:
-    specifier: ^8.28.0
+    specifier: ^8.54.0
     version: 8.54.0
   eslint-config-prettier:
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.54.0)
   eslint-plugin-svelte:
-    specifier: ^2.30.0
+    specifier: ^2.35.0
     version: 2.35.0(eslint@8.54.0)(svelte@4.2.5)
   i:
     specifier: ^0.3.7
@@ -44,34 +44,34 @@ devDependencies:
     specifier: ^10.2.4
     version: 10.2.4
   postcss:
-    specifier: ^8.4.24
+    specifier: ^8.4.31
     version: 8.4.31
   postcss-load-config:
     specifier: ^4.0.1
     version: 4.0.1(postcss@8.4.31)
   prettier:
-    specifier: ^3.0.0
+    specifier: ^3.1.0
     version: 3.1.0
   prettier-plugin-svelte:
-    specifier: ^3.0.0
+    specifier: ^3.1.0
     version: 3.1.0(prettier@3.1.0)(svelte@4.2.5)
   svelte:
-    specifier: ^4.0.5
+    specifier: ^4.2.5
     version: 4.2.5
   svelte-check:
     specifier: ^3.6.0
     version: 3.6.0(postcss-load-config@4.0.1)(postcss@8.4.31)(svelte@4.2.5)
   tailwindcss:
-    specifier: ^3.3.2
+    specifier: ^3.3.5
     version: 3.3.5
   tslib:
-    specifier: ^2.4.1
+    specifier: ^2.6.2
     version: 2.6.2
   typescript:
-    specifier: ^5.0.0
+    specifier: ^5.2.2
     version: 5.2.2
   vite:
-    specifier: ^4.4.2
+    specifier: ^4.5.0
     version: 4.5.0
 
 packages:
@@ -723,7 +723,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.22.1
-      caniuse-lite: 1.0.30001563
+      caniuse-lite: 1.0.30001615
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -764,7 +764,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001563
+      caniuse-lite: 1.0.30001615
       electron-to-chromium: 1.4.588
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
@@ -784,8 +784,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001563:
-    resolution: {integrity: sha512-na2WUmOxnwIZtwnFI2CZ/3er0wdNzU7hN+cPYz/z2ajHThnkWjNBOpEPP4n+4r2WPM847JaMotaJE3bnfzjyKw==}
+  /caniuse-lite@1.0.30001615:
+    resolution: {integrity: sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==}
     dev: true
 
   /chalk@4.1.2:

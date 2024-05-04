@@ -78,7 +78,7 @@
     </p>
 
     <p class="mt-4">
-        You can see the umami analytics <a href="https://umami.ttools.io" target="_blank" rel="noreferrer noopener" data-umami-event="clicked umami link">here</a>.
+        You can see the umami analytics <a href="https://umami.ttools.io/share/BvCzQbYVfvi9AECn/youtube.ttools.io" target="_blank" rel="noreferrer noopener" data-umami-event="clicked umami link">here</a>.
     </p>
     <!-- <p>
         I've also included my own analytics that ublock won't block by default. It sends a randomly generated clientId (saved in localstorage) to my servers about what you do: namely what pages you visit and if you stay on a video page for 1, 5, or 10 minutes. I don't include what specific videos you watch, just that you're watching something.
